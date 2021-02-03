@@ -1,0 +1,27 @@
+//User Component Styles
+
+.user {
+  @extend .flex-center;
+  margin: 1rem 1rem 2.5rem 1rem;
+
+  &__icon {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    margin: 0 0 1rem 0;
+  }
+
+  &__title {
+    text-align: center;
+    font-family: $bold;
+    font-size: 1.5rem;
+    color: $primary-color;
+    margin: 0 0 1rem 0;
+  }
+
+  &__subtitle {
+    font-family: $regular;
+    font-size: 1.25rem;
+    color: $primary-color;
+  }
+}
