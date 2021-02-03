@@ -19,6 +19,8 @@ function App() {
         <Route path="/projects" component={Projects} />
         <Route path="/contact" component={Contact} />
       </Switch>
+      <div className="App__circle1"></div>
+      <div className="App__circle2"></div>
     </div>
   );
 }

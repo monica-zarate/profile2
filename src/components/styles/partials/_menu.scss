@@ -12,6 +12,8 @@
   width: 16rem;
   margin: 1.5rem 0;
   padding: 1rem;
+  z-index: 2;
+  backdrop-filter: blur(0.5rem);
 
   &__list {
     @extend .flex-center;
