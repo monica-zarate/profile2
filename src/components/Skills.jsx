@@ -1,10 +1,10 @@
 import React from "react";
 import "./styles/main.css";
 
-function About() {
+function Skills () {
     return(
-        <div>About Component</div>
+        <div>Tech Component</div>
     )
 }
 
-export default About;
+export default Skills;
