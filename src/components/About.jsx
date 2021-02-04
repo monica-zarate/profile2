@@ -1,9 +1,13 @@
 import React from "react";
+import Nav from "./Nav";
 import "./styles/main.css";
 
 function About() {
     return(
-        <div>About Component</div>
+        <div className="component-wrapper">
+            <div className='component'>About Component</div>
+            <Nav/>
+        </div>
     )
 }
 

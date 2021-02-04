@@ -2,18 +2,11 @@
 
 .menu {
   @extend .flex-center;
-  background: white;
-  background: linear-gradient(
-    to right bottom,
-    rgba(255, 255, 255, 0.7),
-    rgba(255, 255, 255, 0.3)
-  );
+  @extend .background;
   border-radius: 2rem;
   width: 16rem;
   margin: 1.5rem 0;
   padding: 1rem;
-  z-index: 2;
-  backdrop-filter: blur(0.5rem);
 
   &__list {
     @extend .flex-center;

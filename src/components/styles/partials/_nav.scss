@@ -1,0 +1,26 @@
+//Nav Component Styles
+
+.nav {
+  @extend .background;
+  width: 100vw;
+  padding: 1.5rem 0;
+  position: absolute;
+  bottom: 0;
+
+  &__list {
+    @extend .flex-center;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  &__list-item {
+  }
+
+  &__link {
+  }
+
+  &__icon {
+    width: 2rem;
+    height: 2rem;
+  }
+}

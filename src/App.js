@@ -11,14 +11,15 @@ import Contact from "./components/Contact";
 function App() {
   return (
     <div className="App">
-      <Menu />
       <Switch>
-        <Route path="/" component={About} exact />
+        <Route path="/" component={Menu} exact />
+        <Route path="/about" component={About} />
         <Route path="/education" component={Education} />
         <Route path="/skills" component={Skills} />
         <Route path="/projects" component={Projects} />
         <Route path="/contact" component={Contact} />
       </Switch>
+
       <div className="App__circle1"></div>
       <div className="App__circle2"></div>
     </div>

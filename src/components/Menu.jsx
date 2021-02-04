@@ -15,7 +15,7 @@ function Menu () {
             <User/>
             <ul className="menu__list">
                 <li className="menu__item-wrapper">
-                    <Link className="menu__link" to={`/`}>
+                    <Link className="menu__link" to={`/about`}>
                         <img className="menu__img" src={about} alt=""/>
                         <h3 className="menu__title">About</h3>
                     </Link>
