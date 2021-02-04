@@ -1,0 +1,27 @@
+//About Component Styles
+
+.about {
+  @extend .flex-center;
+  @extend .background;
+  border-radius: 2rem;
+  width: 18rem;
+  margin: 2.5rem 0 7rem 0;
+  padding: 2rem 1rem;
+  overflow-y: scroll;
+  justify-content: unset;
+
+  &__title {
+    font-family: $slab-bold;
+    text-align: center;
+    margin: 0 0 1rem 0;
+    color: $primary-color;
+    font-size: 1.5rem;
+  }
+
+  &__p {
+    line-height: 2rem;
+    text-align: justify;
+    color: $primary-color;
+    margin: 0 0 1rem 0;
+  }
+}

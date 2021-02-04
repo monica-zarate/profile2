@@ -31,7 +31,7 @@ ul {
   margin: 0 auto;
 }
 
-.flex-center, .App, .user, .menu, .menu__list, .menu__link, .nav__list {
+.flex-center, .App, .component-wrapper, .user, .menu, .menu__list, .menu__link, .nav__list, .about {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -47,7 +47,7 @@ ul {
           align-items: center;
 }
 
-.background, .menu, .nav {
+.background, .menu, .nav, .about {
   background: white;
   background: -webkit-gradient(linear, left top, right bottom, from(rgba(255, 255, 255, 0.7)), to(rgba(255, 255, 255, 0.3)));
   background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
@@ -88,6 +88,9 @@ ul {
   position: relative;
   width: 100vw;
   height: 100vh;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .user {
@@ -168,6 +171,32 @@ ul {
 .nav__icon {
   width: 2rem;
   height: 2rem;
+}
+
+.about {
+  border-radius: 2rem;
+  width: 18rem;
+  margin: 2.5rem 0 7rem 0;
+  padding: 2rem 1rem;
+  overflow-y: scroll;
+  -webkit-box-pack: unset;
+      -ms-flex-pack: unset;
+          justify-content: unset;
+}
+
+.about__title {
+  font-family: "Roboto Slab Bold";
+  text-align: center;
+  margin: 0 0 1rem 0;
+  color: #0a4081;
+  font-size: 1.5rem;
+}
+
+.about__p {
+  line-height: 2rem;
+  text-align: justify;
+  color: #0a4081;
+  margin: 0 0 1rem 0;
 }
 
 @font-face {
