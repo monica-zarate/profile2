@@ -31,7 +31,7 @@ ul {
   margin: 0 auto;
 }
 
-.flex-center, .App, .component-wrapper, .user, .menu, .menu__list, .menu__link, .nav__list, .about, .education {
+.flex-center, .App, .component-wrapper, .user, .menu, .menu__list, .menu__link, .nav__list, .about, .education, .skills, .skills__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -47,7 +47,7 @@ ul {
           align-items: center;
 }
 
-.background, .menu, .nav, .about, .education {
+.background, .menu, .nav, .about, .education, .skills {
   background: white;
   background: -webkit-gradient(linear, left top, right bottom, from(rgba(255, 255, 255, 0.7)), to(rgba(255, 255, 255, 0.3)));
   background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
@@ -230,6 +230,37 @@ ul {
 
 .education * {
   color: #0a4081;
+}
+
+.skills {
+  border-radius: 2rem;
+  width: 18rem;
+  margin: 2.5rem 0 7rem 0;
+  padding: 1.5rem;
+}
+
+.skills__title {
+  font-family: "Roboto Slab Bold";
+  color: #0a4081;
+  margin: 0 0 2rem 0;
+}
+
+.skills__list {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.skills__icon {
+  width: 4rem;
+  margin: 1rem;
+}
+
+#css {
+  height: 4.25rem;
 }
 
 @font-face {

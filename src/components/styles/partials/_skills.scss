@@ -1,0 +1,34 @@
+//Skills Component styles
+
+.skills {
+  @extend .flex-center;
+  @extend .background;
+  border-radius: 2rem;
+  width: 18rem;
+  margin: 2.5rem 0 7rem 0;
+  padding: 1.5rem;
+
+  &__title {
+    font-family: $slab-bold;
+    color: $primary-color;
+    margin: 0 0 2rem 0;
+  }
+
+  &__list {
+    @extend .flex-center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  &__list-item {
+  }
+
+  &__icon {
+    width: 4rem;
+    margin: 1rem;
+  }
+}
+
+#css {
+  height: 4.25rem;
+}
