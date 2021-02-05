@@ -1,0 +1,34 @@
+//Education Component Styles.
+
+.education {
+  @extend .flex-center;
+  @extend .background;
+  border-radius: 2rem;
+  width: 18rem;
+  margin: 2.5rem 0 7rem 0;
+  padding: 1.5rem;
+  justify-content: unset;
+
+  &__title {
+    font-family: $slab-bold;
+    margin: 0 0 1rem 0;
+  }
+
+  &__list {
+    line-height: 2rem;
+    margin: 0 0 1rem 0;
+  }
+
+  &__h3 {
+    font-size: 1rem;
+    font-family: $medium;
+  }
+
+  &__p {
+    font-size: 0.75rem;
+  }
+}
+
+.education * {
+  color: $primary-color;
+}

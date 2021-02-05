@@ -31,7 +31,7 @@ ul {
   margin: 0 auto;
 }
 
-.flex-center, .App, .component-wrapper, .user, .menu, .menu__list, .menu__link, .nav__list, .about {
+.flex-center, .App, .component-wrapper, .user, .menu, .menu__list, .menu__link, .nav__list, .about, .education {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -47,7 +47,7 @@ ul {
           align-items: center;
 }
 
-.background, .menu, .nav, .about {
+.background, .menu, .nav, .about, .education {
   background: white;
   background: -webkit-gradient(linear, left top, right bottom, from(rgba(255, 255, 255, 0.7)), to(rgba(255, 255, 255, 0.3)));
   background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
@@ -197,6 +197,39 @@ ul {
   text-align: justify;
   color: #0a4081;
   margin: 0 0 1rem 0;
+}
+
+.education {
+  border-radius: 2rem;
+  width: 18rem;
+  margin: 2.5rem 0 7rem 0;
+  padding: 1.5rem;
+  -webkit-box-pack: unset;
+      -ms-flex-pack: unset;
+          justify-content: unset;
+}
+
+.education__title {
+  font-family: "Roboto Slab Bold";
+  margin: 0 0 1rem 0;
+}
+
+.education__list {
+  line-height: 2rem;
+  margin: 0 0 1rem 0;
+}
+
+.education__h3 {
+  font-size: 1rem;
+  font-family: "Roboto Medium";
+}
+
+.education__p {
+  font-size: 0.75rem;
+}
+
+.education * {
+  color: #0a4081;
 }
 
 @font-face {

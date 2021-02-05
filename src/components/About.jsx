@@ -12,7 +12,7 @@ function About() {
                 <p className="about__p">I cultivated curiosity and analytical thinking from a young age mainly by
                 reading books. I’m a detail-oriented individual and I like to challenge myself by embarking on new projects to practice self-taught skills.</p>
                 <p className="about__p">My professional career started working in employee-focused roles. Now I’m excited to transition to a software development role and showcase my creativity by making a positive impact on people’s lives.</p>
-                <p className="about__p">I believe software is key in any industry and provides opportunities for a thrilling career development.</p>
+                <p className="about__p">I believe software is key in any industry and provides the opportunity for thrilling career development.</p>
             </div>
             <Nav/>
         </div>
