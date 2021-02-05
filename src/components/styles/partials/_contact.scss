@@ -1,10 +1,11 @@
-//Skills Component styles
+//Contact Component Styles
 
-.skills {
+.contact {
   @extend .flex-center;
   @extend .background;
   border-radius: 2rem;
   width: 18rem;
+  height: 39rem;
   margin: 2.5rem 0 7rem 0;
   padding: 1.5rem;
 
@@ -16,19 +17,27 @@
 
   &__list {
     @extend .flex-center;
-    flex-direction: row;
-    flex-wrap: wrap;
   }
 
   &__list-item {
   }
 
-  &__icon {
-    width: 3.5rem;
-    margin: 1rem;
+  &__link {
+    @extend .flex-center;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 1rem 0;
+    width: 16rem;
+    color: $primary-color;
   }
-}
 
-#css {
-  height: 3.75rem;
+  &__icon {
+    width: 2rem;
+    height: 2rem;
+    margin: 0 1rem;
+  }
+
+  &__p {
+    font-family: $regular;
+  }
 }

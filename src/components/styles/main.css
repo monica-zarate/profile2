@@ -31,7 +31,7 @@ ul {
   margin: 0 auto;
 }
 
-.flex-center, .App, .component-wrapper, .user, .menu, .menu__list, .menu__link, .nav__list, .about, .education, .skills, .skills__list {
+.flex-center, .App, .component-wrapper, .user, .menu, .menu__list, .menu__link, .nav__list, .about, .education, .skills, .skills__list, .contact, .contact__list, .contact__link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -47,7 +47,7 @@ ul {
           align-items: center;
 }
 
-.background, .menu, .nav, .about, .education, .skills {
+.background, .menu, .nav, .about, .education, .skills, .contact {
   background: white;
   background: -webkit-gradient(linear, left top, right bottom, from(rgba(255, 255, 255, 0.7)), to(rgba(255, 255, 255, 0.3)));
   background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
@@ -255,12 +255,49 @@ ul {
 }
 
 .skills__icon {
-  width: 4rem;
+  width: 3.5rem;
   margin: 1rem;
 }
 
 #css {
-  height: 4.25rem;
+  height: 3.75rem;
+}
+
+.contact {
+  border-radius: 2rem;
+  width: 18rem;
+  height: 39rem;
+  margin: 2.5rem 0 7rem 0;
+  padding: 1.5rem;
+}
+
+.contact__title {
+  font-family: "Roboto Slab Bold";
+  color: #0a4081;
+  margin: 0 0 2rem 0;
+}
+
+.contact__link {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin: 1rem 0;
+  width: 16rem;
+  color: #0a4081;
+}
+
+.contact__icon {
+  width: 2rem;
+  height: 2rem;
+  margin: 0 1rem;
+}
+
+.contact__p {
+  font-family: "Roboto Regular";
 }
 
 @font-face {
