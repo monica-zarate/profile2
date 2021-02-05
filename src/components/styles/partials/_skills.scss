@@ -5,13 +5,15 @@
   @extend .background;
   border-radius: 2rem;
   width: 18rem;
+  height: 39rem;
   margin: 2.5rem 0 7rem 0;
   padding: 1.5rem;
+  justify-content: unset;
 
   &__title {
     font-family: $slab-bold;
     color: $primary-color;
-    margin: 0 0 2rem 0;
+    margin: 2rem 0;
   }
 
   &__list {
@@ -21,14 +23,20 @@
   }
 
   &__list-item {
+    @extend .flex-center;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 0.75rem 0;
+    width: 14rem;
+    color: $primary-color;
   }
 
   &__icon {
-    width: 3.5rem;
-    margin: 1rem;
+    width: 2rem;
+    margin: 0 1rem;
   }
 }
 
 #css {
-  height: 3.75rem;
+  height: 2.2rem;
 }

@@ -5,6 +5,7 @@
   @extend .background;
   border-radius: 2rem;
   width: 18rem;
+  height: 39rem;
   margin: 2.5rem 0 7rem 0;
   padding: 1.5rem;
   justify-content: unset;
@@ -16,7 +17,6 @@
 
   &__list {
     line-height: 2rem;
-    margin: 0 0 1rem 0;
   }
 
   &__h3 {
@@ -31,4 +31,8 @@
 
 .education * {
   color: $primary-color;
+}
+
+#other {
+  margin: 1rem 0;
 }

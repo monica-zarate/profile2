@@ -8,11 +8,12 @@
   height: 39rem;
   margin: 2.5rem 0 7rem 0;
   padding: 1.5rem;
+  justify-content: unset;
 
   &__title {
     font-family: $slab-bold;
     color: $primary-color;
-    margin: 0 0 2rem 0;
+    margin: 2rem 0;
   }
 
   &__list {

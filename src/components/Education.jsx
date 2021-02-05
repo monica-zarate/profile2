@@ -19,7 +19,7 @@ function Education() {
                         <p className="education__p">2007 - 2011</p>
                     </li>
                 </ul>
-                <h2 className="education__title">Other Courses</h2>
+                <h2 className="education__title" id="other">Other Courses</h2>
                 <ul className="education__list">
                     <li className="education__list-item">
                         <h3 className="education__h3">Yoga Teacher Training 200hrs</h3>

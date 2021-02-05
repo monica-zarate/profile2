@@ -17,24 +17,31 @@ function Skills () {
                 <ul className="skills__list">
                     <li className="skills__list-item">
                         <img className="skills__icon" src={html} alt=""/>
+                        <p className="skills__p">HTML5</p>
                     </li>
                     <li className="skills__list-item">
                         <img className="skills__icon" id="css" src={css} alt=""/>
+                        <p className="skills__p">CSS3</p>
                     </li>
                     <li className="skills__list-item">
                         <img className="skills__icon" src={sass} alt=""/>
+                        <p className="skills__p">SASS</p>
                     </li>
                     <li className="skills__list-item">
                         <img className="skills__icon" src={js} alt=""/>
+                        <p className="skills__p">Javascript</p>
                     </li>
                     <li className="skills__list-item">
                         <img className="skills__icon" src={react} alt=""/>
+                        <p className="skills__p">React</p>
                     </li>
                     <li className="skills__list-item">
                         <img className="skills__icon" src={node} alt=""/>
+                        <p className="skills__p">Node.js / Express</p>
                     </li>
                     <li className="skills__list-item">
                         <img className="skills__icon" src={mysql} alt=""/>
+                        <p className="skills__p">MySQL</p>
                     </li>
                 </ul>
             </div>
