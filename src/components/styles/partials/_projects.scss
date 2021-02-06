@@ -1,0 +1,60 @@
+//Project Component Styles
+
+.projects {
+  @extend .flex-center;
+  @extend .background;
+  border-radius: 2rem;
+  width: 18rem;
+  height: 39rem;
+  margin: 2.5rem 0 7rem 0;
+  padding: 1.5rem;
+  justify-content: unset;
+  overflow-y: scroll;
+
+  &__title {
+    font-family: $slab-bold;
+    color: $primary-color;
+    margin: 2rem 0;
+  }
+
+  &__list {
+    @extend .flex-center;
+  }
+
+  &__list * {
+    color: $primary-color;
+    line-height: 2rem;
+  }
+
+  &__item-wrapper {
+    @extend .flex-center;
+    @extend .background;
+    width: 16rem;
+    border-radius: 2rem;
+    align-items: unset;
+    padding: 1.5rem 1rem;
+  }
+
+  &__item-title {
+    font-family: $medium;
+    margin: 0 0 0.5rem 0;
+  }
+
+  &__type {
+    margin: 0 0 0.5rem 0;
+  }
+
+  &__btn {
+    margin: 0 0 0.5rem 0;
+    background-color: unset;
+    color: $bg-primary;
+    font-family: $bold;
+    border: none;
+    border-radius: 0.5rem;
+    width: 4rem;
+    height: 2rem;
+    padding: 0.25rem 0;
+    font-size: 0.75rem;
+    cursor: pointer;
+  }
+}

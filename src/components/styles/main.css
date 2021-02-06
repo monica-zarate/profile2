@@ -31,7 +31,7 @@ ul {
   margin: 0 auto;
 }
 
-.flex-center, .App, .component-wrapper, .user, .menu, .menu__list, .menu__link, .nav__list, .about, .education, .skills, .skills__list, .skills__list-item, .contact, .contact__list, .contact__link {
+.flex-center, .App, .component-wrapper, .user, .menu, .menu__list, .menu__link, .nav__list, .about, .education, .skills, .skills__list, .skills__list-item, .contact, .contact__list, .contact__link, .projects, .projects__list, .projects__item-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -47,7 +47,7 @@ ul {
           align-items: center;
 }
 
-.background, .menu, .nav, .about, .education, .skills, .contact {
+.background, .menu, .nav, .about, .education, .skills, .contact, .projects, .projects__item-wrapper {
   background: white;
   background: -webkit-gradient(linear, left top, right bottom, from(rgba(255, 255, 255, 0.7)), to(rgba(255, 255, 255, 0.3)));
   background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
@@ -322,6 +322,61 @@ ul {
 
 .contact__p {
   font-family: "Roboto Regular";
+}
+
+.projects {
+  border-radius: 2rem;
+  width: 18rem;
+  height: 39rem;
+  margin: 2.5rem 0 7rem 0;
+  padding: 1.5rem;
+  -webkit-box-pack: unset;
+      -ms-flex-pack: unset;
+          justify-content: unset;
+  overflow-y: scroll;
+}
+
+.projects__title {
+  font-family: "Roboto Slab Bold";
+  color: #0a4081;
+  margin: 2rem 0;
+}
+
+.projects__list * {
+  color: #0a4081;
+  line-height: 2rem;
+}
+
+.projects__item-wrapper {
+  width: 16rem;
+  border-radius: 2rem;
+  -webkit-box-align: unset;
+      -ms-flex-align: unset;
+          align-items: unset;
+  padding: 1.5rem 1rem;
+}
+
+.projects__item-title {
+  font-family: "Roboto Medium";
+  margin: 0 0 0.5rem 0;
+}
+
+.projects__type {
+  margin: 0 0 0.5rem 0;
+}
+
+.projects__btn {
+  margin: 0 0 0.5rem 0;
+  background-color: unset;
+  color: #94bbe9;
+  font-family: "Roboto Bold";
+  border: none;
+  border-radius: 0.5rem;
+  width: 4rem;
+  height: 2rem;
+  padding: 0.25rem 0;
+  font-size: 0.75rem;
+  cursor: pointer;
 }
 
 @font-face {
