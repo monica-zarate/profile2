@@ -1,11 +1,23 @@
 [{
+    "title": "Solstice Journal",
+    "type": "Personal Blog",
+    "img": "https://live.staticflickr.com/65535/50929817898_4364412c4f_o.png",
+    "description": "A personal blog project that reads entries from a database. With a Blog Index per topics.",
+    "tech": "Front end: React. Back end: Node.js with Express. Database: MySQL. Styled with SASS.",
+    "challenges": "Challenges: The database integration.",
+    "improve": "Improve: Add comments or likes to posts.",
+    "link": "http://www.solsticejournal.com/",
+    "repo": "https://github.com/monicazhazil/journal",
+    "path": "solstice_journal"
+},
+{
     "title": "Happy House",
     "type": "BrainStation Web Development Diploma Capstone Project",
-    "img": "",
+    "img": "https://live.staticflickr.com/65535/50930628127_f7b593a51d_o.png",
     "description": "Happy House is a collaborative platform that will help people living on the same household, remain involved with all the chores and activities that need to be done to keep a healthy home environment.",
     "tech": "Front end: React. Back end: Node.js with Express. Styled with SASS.",
-    "challenges": "The log-in feature.",
-    "improve": "Awards or badges once a task is completed.",
+    "challenges": "Challenges: The log-in feature.",
+    "improve": "Improve: Secure log-in. Awards or badges once a task is completed.",
     "link": "https://www.loom.com/share/362935b8214541e2aed0368b2427cd73",
     "repo": "https://github.com/monicazhazil/happy-house",
     "path": "happy_house"
@@ -13,8 +25,25 @@
 {
     "title": "Cuau Retrato",
     "type": "Photographer Portfolio",
-    "img": "",
+    "img": "https://live.staticflickr.com/65535/50929817943_ee1bfd4755_o.png",
     "description": "Mexico City-based photographer, showcasing its outdoor and in-studio portraits. With a creative setting in mind, the models are always shining. The website contains a Gallery, Contact and About Components.",
     "tech": "Built with React. Styled with SASS",
+    "challenges": "Challenges: Make the Instagram Plug-in look polished.",
+    "improve": "Improve: Make the Gallery Component more efficient.",
+    "link": "https://cuauretrato.netlify.app/",
+    "repo": "https://github.com/monicazhazil/cuau-photo",
     "path": "cuau_retrato"
+},
+{
+    "title": "Beatmaker",
+    "type": "Vanilla Javascript Project",
+    "img": "https://live.staticflickr.com/65535/50929817958_73114d34ab_o.png",
+    "description": "Beatmaker allows you to play with three sound effects, looping the sounds and playing the selected ones, increasing or decreasing the tempo speed. Each sound effect has from two to three variations, and they can also be muted.",
+    "tech": "Built with Javascript and CSS",
+    "challenges": "",
+    "improve": "",
+    "link": "https://monicabeatmaker.netlify.app/",
+    "repo": "https://github.com/monicazhazil/beatmaker",
+    "path": "beatmaker"
 }]
+
