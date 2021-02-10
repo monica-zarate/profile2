@@ -1,0 +1,37 @@
+//Details Component Styles.
+
+.details * {
+  color: $primary-color;
+}
+
+.details {
+  @extend .flex-center;
+  @extend .background;
+  border-radius: 2rem;
+  width: 18rem;
+  margin: 2.5rem 0 7rem 0;
+  padding: 1.5rem;
+  justify-content: unset;
+  overflow-y: scroll;
+
+  &__title {
+    font-family: $slab-bold;
+    margin: 1rem 0;
+  }
+
+  &__type {
+    margin: 1rem 0;
+  }
+
+  &__img {
+    margin: 1rem 0;
+  }
+
+  &__p {
+    margin: 1rem 0;
+  }
+
+  &__link {
+    margin: 1rem 0;
+  }
+}

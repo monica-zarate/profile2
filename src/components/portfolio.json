@@ -1,0 +1,20 @@
+[{
+    "title": "Happy House",
+    "type": "BrainStation Web Development Diploma Capstone Project",
+    "img": "",
+    "description": "Happy House is a collaborative platform that will help people living on the same household, remain involved with all the chores and activities that need to be done to keep a healthy home environment.",
+    "tech": "Front end: React. Back end: Node.js with Express. Styled with SASS.",
+    "challenges": "The log-in feature.",
+    "improve": "Awards or badges once a task is completed.",
+    "link": "https://www.loom.com/share/362935b8214541e2aed0368b2427cd73",
+    "repo": "https://github.com/monicazhazil/happy-house",
+    "path": "happy_house"
+},
+{
+    "title": "Cuau Retrato",
+    "type": "Photographer Portfolio",
+    "img": "",
+    "description": "Mexico City-based photographer, showcasing its outdoor and in-studio portraits. With a creative setting in mind, the models are always shining. The website contains a Gallery, Contact and About Components.",
+    "tech": "Built with React. Styled with SASS",
+    "path": "cuau_retrato"
+}]

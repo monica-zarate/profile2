@@ -31,7 +31,7 @@ ul {
   margin: 0 auto;
 }
 
-.flex-center, .App, .component-wrapper, .user, .menu, .menu__list, .menu__link, .nav__list, .about, .education, .skills, .skills__list, .skills__list-item, .contact, .contact__list, .contact__link, .projects, .projects__list, .projects__item-wrapper {
+.flex-center, .App, .component-wrapper, .user, .menu, .menu__list, .menu__link, .nav__list, .about, .education, .skills, .skills__list, .skills__list-item, .contact, .contact__list, .contact__link, .projects, .projects__list, .projects__item-wrapper, .details {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -47,7 +47,7 @@ ul {
           align-items: center;
 }
 
-.background, .menu, .nav, .about, .education, .skills, .contact, .projects, .projects__item-wrapper {
+.background, .menu, .nav, .about, .education, .skills, .contact, .projects, .projects__item-wrapper, .details {
   background: white;
   background: -webkit-gradient(linear, left top, right bottom, from(rgba(255, 255, 255, 0.7)), to(rgba(255, 255, 255, 0.3)));
   background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
@@ -377,6 +377,42 @@ ul {
   padding: 0.25rem 0;
   font-size: 0.75rem;
   cursor: pointer;
+}
+
+.details * {
+  color: #0a4081;
+}
+
+.details {
+  border-radius: 2rem;
+  width: 18rem;
+  margin: 2.5rem 0 7rem 0;
+  padding: 1.5rem;
+  -webkit-box-pack: unset;
+      -ms-flex-pack: unset;
+          justify-content: unset;
+  overflow-y: scroll;
+}
+
+.details__title {
+  font-family: "Roboto Slab Bold";
+  margin: 1rem 0;
+}
+
+.details__type {
+  margin: 1rem 0;
+}
+
+.details__img {
+  margin: 1rem 0;
+}
+
+.details__p {
+  margin: 1rem 0;
+}
+
+.details__link {
+  margin: 1rem 0;
 }
 
 @font-face {
