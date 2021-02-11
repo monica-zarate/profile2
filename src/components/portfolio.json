@@ -2,7 +2,7 @@
     "title": "Solstice Journal",
     "type": "Personal Blog",
     "img": "https://live.staticflickr.com/65535/50929817898_4364412c4f_o.png",
-    "description": "A personal blog project that reads entries from a database. With a Blog Index per topics.",
+    "description": "This project reads entries from a database. With a Blog Index per topics.",
     "tech": "Front end: React. Back end: Node.js with Express. Database: MySQL. Styled with SASS.",
     "challenges": "Challenges: The database integration.",
     "improve": "Improve: Add comments or likes to posts.",

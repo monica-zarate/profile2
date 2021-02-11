@@ -392,27 +392,38 @@ ul {
       -ms-flex-pack: unset;
           justify-content: unset;
   overflow-y: scroll;
+  -webkit-box-align: unset;
+      -ms-flex-align: unset;
+          align-items: unset;
 }
 
 .details__title {
   font-family: "Roboto Slab Bold";
-  margin: 1rem 0;
+  margin: 0.5rem 0;
+  text-align: center;
 }
 
 .details__type {
-  margin: 1rem 0;
+  margin: 0.5rem 0;
+  text-align: center;
 }
 
 .details__img {
-  margin: 1rem 0;
+  margin: 0.5rem 0;
+  width: 16rem;
 }
 
 .details__p {
-  margin: 1rem 0;
+  margin: 0.5rem 0;
 }
 
 .details__link {
   margin: 1rem 0;
+  font-family: "Roboto Slab Bold";
+  width: 16rem;
+  text-align: center;
+  padding: 0 0.5rem;
+  color: #94bbe9;
 }
 
 @font-face {

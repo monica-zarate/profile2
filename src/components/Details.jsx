@@ -13,12 +13,12 @@ function Details(props) {
                 <h2 className="details__title">{Portfolio[i].title}</h2>
                 <h3 className="details__type">{Portfolio[i].type}</h3>
                 <img className="details__img" src={Portfolio[i].img} alt=""/>
-                <p className="details__p">{Portfolio[i].description}Description</p>
-                <p className="details__p">{Portfolio[i].tech}Tech Stack</p>
-                <p className="details__p">{Portfolio[i].challenges}Challenges</p>
-                <p className="details__p">{Portfolio[i].improve}To improve</p>
-                <a className="details__link" href={Portfolio[i].link}>Link to project</a> 
-                <a className="details__link" href={Portfolio[i].repo}>GitHub repo</a>
+                <p className="details__p">{Portfolio[i].description}</p>
+                <p className="details__p">{Portfolio[i].tech}</p>
+                <p className="details__p">{Portfolio[i].challenges}</p>
+                <p className="details__p">{Portfolio[i].improve}</p>
+                <a className="details__link" href={Portfolio[i].link}>Visit the project's website</a> 
+                <a className="details__link" href={Portfolio[i].repo}>Visit the GitHub repository</a>
             </div>
             <Nav/>
         </div>
