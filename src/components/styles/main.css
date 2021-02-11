@@ -289,6 +289,27 @@ ul {
           justify-content: unset;
 }
 
+@media (min-width: 768px) {
+  .about {
+    margin: 7rem 0 1.5rem 0;
+    width: 75rem;
+    padding: 5rem 15rem;
+    height: 40rem;
+    border-radius: 1rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .about {
+    width: 100rem;
+    height: 50rem;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    padding: 10rem 5rem;
+    margin: 8rem 0 1.5rem 0;
+  }
+}
+
 .about__title {
   font-family: "Roboto Slab Bold";
   text-align: center;
@@ -297,11 +318,23 @@ ul {
   font-size: 1.5rem;
 }
 
+@media (min-width: 768px) {
+  .about__title {
+    font-size: 2rem;
+  }
+}
+
 .about__p {
   line-height: 2rem;
   text-align: justify;
   color: #0a4081;
   margin: 0 0 1rem 0;
+}
+
+@media (min-width: 768px) {
+  .about__p {
+    width: 35rem;
+  }
 }
 
 .education {

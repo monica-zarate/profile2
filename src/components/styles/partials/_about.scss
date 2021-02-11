@@ -10,12 +10,31 @@
   overflow-y: scroll;
   justify-content: unset;
 
+  @include tablet {
+    margin: 7rem 0 1.5rem 0;
+    width: 75rem;
+    padding: 5rem 15rem;
+    height: 40rem;
+    border-radius: 1rem;
+  }
+
+  @include desktop {
+    width: 100rem;
+    height: 50rem;
+    justify-content: space-around;
+    padding: 10rem 5rem;
+    margin: 8rem 0 1.5rem 0;
+  }
+
   &__title {
     font-family: $slab-bold;
     text-align: center;
     margin: 0 0 1rem 0;
     color: $primary-color;
     font-size: 1.5rem;
+    @include tablet {
+      font-size: 2rem;
+    }
   }
 
   &__p {
@@ -23,5 +42,8 @@
     text-align: justify;
     color: $primary-color;
     margin: 0 0 1rem 0;
+    @include tablet {
+      width: 35rem;
+    }
   }
 }
