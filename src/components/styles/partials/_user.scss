@@ -3,12 +3,19 @@
 .user {
   @extend .flex-center;
   margin: 1rem 1rem 2.5rem 1rem;
+  @include tablet {
+    margin: 2rem 2rem 6rem 2rem;
+  }
 
   &__icon {
     width: 6rem;
     height: 6rem;
     border-radius: 50%;
     margin: 0 0 1rem 0;
+    @include tablet {
+      width: 8rem;
+      height: 8rem;
+    }
   }
 
   &__title {
@@ -17,11 +24,19 @@
     font-size: 1.5rem;
     color: $primary-color;
     margin: 0 0 1rem 0;
+    @include tablet {
+      @include tablet {
+        font-size: 2.5rem;
+      }
+    }
   }
 
   &__subtitle {
     font-family: $regular;
     font-size: 1.25rem;
     color: $primary-color;
+    @include tablet {
+      font-size: 1.5rem;
+    }
   }
 }

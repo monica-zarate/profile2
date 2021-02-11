@@ -74,6 +74,13 @@ ul {
   border-radius: 50%;
 }
 
+@media (min-width: 768px) {
+  .App__circle1, .App__circle2 {
+    height: 22rem;
+    width: 22rem;
+  }
+}
+
 .App__circle1 {
   top: 0;
   right: -2rem;
@@ -97,11 +104,24 @@ ul {
   margin: 1rem 1rem 2.5rem 1rem;
 }
 
+@media (min-width: 768px) {
+  .user {
+    margin: 2rem 2rem 6rem 2rem;
+  }
+}
+
 .user__icon {
   width: 6rem;
   height: 6rem;
   border-radius: 50%;
   margin: 0 0 1rem 0;
+}
+
+@media (min-width: 768px) {
+  .user__icon {
+    width: 8rem;
+    height: 8rem;
+  }
 }
 
 .user__title {
@@ -112,10 +132,22 @@ ul {
   margin: 0 0 1rem 0;
 }
 
+@media (min-width: 768px) and (min-width: 768px) {
+  .user__title {
+    font-size: 2.5rem;
+  }
+}
+
 .user__subtitle {
   font-family: "Roboto Regular";
   font-size: 1.25rem;
   color: #0a4081;
+}
+
+@media (min-width: 768px) {
+  .user__subtitle {
+    font-size: 1.5rem;
+  }
 }
 
 .menu {
@@ -123,6 +155,36 @@ ul {
   width: 16rem;
   margin: 1.5rem 0;
   padding: 1rem;
+}
+
+@media (min-width: 768px) {
+  .menu {
+    width: 75rem;
+    padding: 5rem;
+    height: 40rem;
+    -webkit-box-pack: unset;
+        -ms-flex-pack: unset;
+            justify-content: unset;
+  }
+}
+
+@media (min-width: 1440px) {
+  .menu {
+    width: 100rem;
+    height: 50rem;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    padding: 10rem 5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .menu__list {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
 }
 
 .menu__item-wrapper {
@@ -139,10 +201,24 @@ ul {
           justify-content: flex-start;
 }
 
+@media (min-width: 768px) {
+  .menu__link {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
 .menu__img {
   width: 2rem;
   height: 2rem;
   margin: 1rem;
+}
+
+@media (min-width: 768px) {
+  .menu__img {
+    margin: 0;
+  }
 }
 
 .menu__title {
@@ -150,6 +226,19 @@ ul {
   color: #0a4081;
   margin: 1rem;
   font-size: 1rem;
+}
+
+@media (min-width: 768px) {
+  .menu__title {
+    font-size: 1.5rem;
+    font-family: "Roboto Regular";
+  }
+}
+
+@media (min-width: 768px) and (min-width: 768px) {
+  .menu__title {
+    margin: 0 0 0 1rem;
+  }
 }
 
 .nav {

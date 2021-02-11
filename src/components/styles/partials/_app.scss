@@ -25,6 +25,10 @@
     width: 12rem;
     position: absolute;
     border-radius: 50%;
+    @include tablet {
+      height: 22rem;
+      width: 22rem;
+    }
   }
 
   &__circle1 {

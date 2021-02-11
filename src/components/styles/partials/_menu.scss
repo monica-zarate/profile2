@@ -8,8 +8,25 @@
   margin: 1.5rem 0;
   padding: 1rem;
 
+  @include tablet {
+    width: 75rem;
+    padding: 5rem;
+    height: 40rem;
+    justify-content: unset;
+  }
+
+  @include desktop {
+    width: 100rem;
+    height: 50rem;
+    justify-content: space-around;
+    padding: 10rem 5rem;
+  }
+
   &__list {
     @extend .flex-center;
+    @include tablet {
+      flex-direction: row;
+    }
   }
 
   &__item-wrapper {
@@ -20,12 +37,18 @@
     @extend .flex-center;
     flex-direction: row;
     justify-content: flex-start;
+    @include tablet {
+      justify-content: center;
+    }
   }
 
   &__img {
     width: 2rem;
     height: 2rem;
     margin: 1rem;
+    @include tablet {
+      margin: 0;
+    }
   }
 
   &__title {
@@ -33,5 +56,12 @@
     color: $primary-color;
     margin: 1rem;
     font-size: 1rem;
+    @include tablet {
+      font-size: 1.5rem;
+      font-family: $regular;
+      @include tablet {
+        margin: 0 0 0 1rem;
+      }
+    }
   }
 }
