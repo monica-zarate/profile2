@@ -10,9 +10,27 @@
   padding: 1.5rem;
   justify-content: unset;
 
+  @include tablet {
+    margin: 7.5rem 0 1.5rem 0;
+    width: 75rem;
+    padding: 2.5rem 10rem;
+    height: 40rem;
+    border-radius: 1rem;
+  }
+
+  @include desktop {
+    width: 100rem;
+    height: 50rem;
+    padding: 10rem 5rem;
+    margin: 8rem 0 1.5rem 0;
+  }
+
   &__title {
     font-family: $slab-bold;
     margin: 0 0 1rem 0;
+    @include tablet {
+      font-size: 2rem;
+    }
   }
 
   &__list {
@@ -22,10 +40,17 @@
   &__h3 {
     font-size: 1rem;
     font-family: $medium;
+    @include tablet {
+      font-size: 1.5rem;
+      font-family: $regular;
+    }
   }
 
   &__p {
     font-size: 0.75rem;
+    @include tablet {
+      font-size: 1rem;
+    }
   }
 }
 
