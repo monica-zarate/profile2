@@ -248,6 +248,15 @@ ul {
   bottom: 0;
 }
 
+@media (min-width: 768px) {
+  .nav {
+    top: 0;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+}
+
 .nav__list {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
@@ -260,6 +269,13 @@ ul {
 .nav__icon {
   width: 2rem;
   height: 2rem;
+}
+
+@media (min-width: 768px) {
+  .nav__icon {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
 }
 
 .about {
