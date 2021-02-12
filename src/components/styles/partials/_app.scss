@@ -2,6 +2,7 @@
 
 .App {
   @extend .flex-center;
+  position: relative;
   min-height: 100vh;
   min-width: 20rem;
   overflow: hidden;
