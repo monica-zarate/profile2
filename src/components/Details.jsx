@@ -19,8 +19,8 @@ function Details(props) {
                 <p className="details__p">{Portfolio[i].tech}</p>
                 <p className="details__p">{Portfolio[i].challenges}</p>
                 <p className="details__p">{Portfolio[i].improve}</p>
-                <a className="details__link" href={Portfolio[i].link}>Visit the project's website</a> 
-                <a className="details__link" href={Portfolio[i].repo}>Visit the GitHub repository</a>
+                <a className="details__link" href={Portfolio[i].link} target="_blank" rel="noreferrer">Visit the project's website</a> 
+                <a className="details__link" href={Portfolio[i].repo} target="_blank" rel="noreferrer">Visit the GitHub repository</a>
             </div>
             
         </div>

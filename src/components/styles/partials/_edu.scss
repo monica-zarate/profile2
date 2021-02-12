@@ -9,6 +9,7 @@
   margin: 2.5rem 0 7rem 0;
   padding: 2rem 1rem;
   justify-content: unset;
+  overflow-y: scroll;
 
   @include tablet {
     margin: 0;
@@ -37,7 +38,6 @@
     line-height: 2rem;
     @include tablet {
       display: flex;
-      // flex-direction: column;
       justify-content: space-around;
       align-items: center;
       width: 80%;

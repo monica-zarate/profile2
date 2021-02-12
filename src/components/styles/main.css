@@ -98,6 +98,7 @@ ul {
           flex-direction: row;
   position: relative;
   height: 100vh;
+  overflow: hidden;
 }
 
 @media (min-width: 768px) {
@@ -456,6 +457,7 @@ ul {
   -webkit-box-pack: unset;
       -ms-flex-pack: unset;
           justify-content: unset;
+  overflow-y: scroll;
 }
 
 @media (min-width: 768px) {
