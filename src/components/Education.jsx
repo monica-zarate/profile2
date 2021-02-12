@@ -1,8 +1,11 @@
 import React from "react";
 import Nav from "./Nav";
 import "./styles/main.css";
+import ReactGA from "react-ga";
 
 function Education() {
+    ReactGA.initialize("G-L7ZSZZHCGK");
+    ReactGA.pageview(window.location.pathname + window.location.search);
     return(
         <div className="component-wrapper">
             <Nav/>
