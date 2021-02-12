@@ -5,6 +5,7 @@ import "./styles/main.css";
 function About() {
     return(
         <div className="component-wrapper">
+            <Nav/>
             <div className="about">
                 <h2 className="about__title">Hello 👋</h2>
                 <h2 className="about__title">My name is Monica.</h2>
@@ -14,7 +15,7 @@ function About() {
                 <p className="about__p">My professional career started working in employee-focused roles. I have transitioned to a software development role to showcase my creativity by making a positive impact on people’s lives.</p>
                 <p className="about__p">I believe software is key in any industry and provides the opportunity for thrilling career development.</p>
             </div>
-            <Nav/>
+            
         </div>
     )
 }

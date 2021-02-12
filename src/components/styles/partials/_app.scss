@@ -43,9 +43,18 @@
 }
 
 .component-wrapper {
-  position: relative;
-  width: 100vw;
-  height: 100vh;
   @extend .flex-center;
-  justify-content: space-between;
+  flex-direction: row;
+  position: relative;
+  height: 100vh;
+
+  @include tablet {
+    width: 100vw;
+    height: 100vh;
+    justify-content: space-around;
+  }
+
+  @include desktop {
+    width: 90vw;
+  }
 }

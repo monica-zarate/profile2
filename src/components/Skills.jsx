@@ -12,6 +12,7 @@ import mysql from "../assets/icons/mysql.svg";
 function Skills () {
     return(
         <div className="component-wrapper">
+            <Nav/>
             <div className="skills">
                 <h2 className="skills__title">Skills</h2>
                 <ul className="skills__list">
@@ -45,7 +46,7 @@ function Skills () {
                     </li>
                 </ul>
             </div>
-            <Nav/>
+            
         </div>
     )
 }

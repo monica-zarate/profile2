@@ -5,6 +5,7 @@ import "./styles/main.css";
 function Education() {
     return(
         <div className="component-wrapper">
+            <Nav/>
             <div className="education">
                 <h2 className="education__title">Education</h2>
                 <ul className="education__list">
@@ -33,7 +34,7 @@ function Education() {
                     </li>
                 </ul>
             </div>
-            <Nav/>
+            
         </div>
     )
 }

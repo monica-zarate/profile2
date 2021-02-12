@@ -9,16 +9,36 @@
   @extend .background;
   border-radius: 2rem;
   width: 18rem;
+  height: 35rem;
   margin: 2.5rem 0 7rem 0;
   padding: 1.5rem;
   justify-content: unset;
   overflow-y: scroll;
   align-items: unset;
+  @include tablet {
+    margin: 0;
+    width: 50rem;
+    height: 42rem;
+    border-radius: 1rem;
+    padding: 4rem;
+    align-items: center;
+  }
+
+  @include desktop {
+    padding: 5rem;
+    height: 50rem;
+    width: 60rem;
+  }
 
   &__title {
     font-family: $slab-bold;
     margin: 0.5rem 0;
     text-align: center;
+    @include tablet {
+      @include tablet {
+        margin: 0 0 0.5rem 0;
+      }
+    }
   }
 
   &__type {
@@ -29,10 +49,17 @@
   &__img {
     margin: 0.5rem 0;
     width: 16rem;
+    @include tablet {
+      margin: 1rem 0;
+    }
   }
 
   &__p {
     margin: 0.5rem 0;
+    @include tablet {
+      width: 25rem;
+      text-align: justify;
+    }
   }
 
   &__link {

@@ -9,6 +9,7 @@ import tw from "../assets/icons/twitter.svg";
 function Contact() {
     return(
         <div className="component-wrapper">
+            <Nav/>
             <div className="contact">
                 <h2 className="contact__title">Get in touch</h2>
                 <ul className="contact__list">
@@ -42,7 +43,7 @@ function Contact() {
                     </li>
                 </ul>
             </div>
-            <Nav/>
+            
         </div>
     )
 }

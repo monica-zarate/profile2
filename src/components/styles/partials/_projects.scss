@@ -5,20 +5,37 @@
   @extend .background;
   border-radius: 2rem;
   width: 18rem;
-  height: 39rem;
+  height: 35rem;
   margin: 2.5rem 0 7rem 0;
-  padding: 1.5rem;
+  padding: 2rem 1rem;
   justify-content: unset;
   overflow-y: scroll;
+  @include tablet {
+    margin: 0;
+    width: 50rem;
+    height: 42rem;
+    border-radius: 1rem;
+    padding: 4rem;
+  }
+
+  @include desktop {
+    padding: 5rem;
+    height: 50rem;
+    width: 60rem;
+  }
 
   &__title {
     font-family: $slab-bold;
     color: $primary-color;
-    margin: 2rem 0;
+    margin: 0 0 2rem 0;
   }
 
   &__list {
     @extend .flex-center;
+    @include tablet {
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
   }
 
   &__list * {
@@ -34,6 +51,13 @@
     align-items: unset;
     padding: 1rem;
     margin: 1rem 0;
+
+    @include tablet {
+      margin: 2rem;
+      height: 10rem;
+      justify-content: unset;
+      padding: 1.5rem;
+    }
   }
 
   &__item-title {

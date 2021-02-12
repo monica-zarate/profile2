@@ -8,6 +8,7 @@ function Projects () {
     return(
         
         <div className="component-wrapper">
+            <Nav/>
             <div className="projects">
                 <h2 className="projects__title">Projects</h2>
                 <ul className="projects__list">
@@ -20,8 +21,6 @@ function Projects () {
                     ))}
                 </ul>
             </div>
-            
-            <Nav/>
         </div>
     )
 }
