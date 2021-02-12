@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/profile2/static/css/main.262b7f55.chunk.css",
+    "main.js": "/profile2/static/js/main.98795514.chunk.js",
+    "main.js.map": "/profile2/static/js/main.98795514.chunk.js.map",
+    "runtime-main.js": "/profile2/static/js/runtime-main.c94ce6dd.js",
+    "runtime-main.js.map": "/profile2/static/js/runtime-main.c94ce6dd.js.map",
+    "static/js/2.1dccd1d4.chunk.js": "/profile2/static/js/2.1dccd1d4.chunk.js",
+    "static/js/2.1dccd1d4.chunk.js.map": "/profile2/static/js/2.1dccd1d4.chunk.js.map",
+    "index.html": "/profile2/index.html",
+    "static/css/main.262b7f55.chunk.css.map": "/profile2/static/css/main.262b7f55.chunk.css.map",
+    "static/js/2.1dccd1d4.chunk.js.LICENSE.txt": "/profile2/static/js/2.1dccd1d4.chunk.js.LICENSE.txt",
+    "static/media/about.f8064249.svg": "/profile2/static/media/about.f8064249.svg",
+    "static/media/contact.7bb66dc9.svg": "/profile2/static/media/contact.7bb66dc9.svg",
+    "static/media/css.5da907d7.svg": "/profile2/static/media/css.5da907d7.svg",
+    "static/media/edu.96853761.svg": "/profile2/static/media/edu.96853761.svg",
+    "static/media/github.fa0212fe.svg": "/profile2/static/media/github.fa0212fe.svg",
+    "static/media/home.e6743adb.svg": "/profile2/static/media/home.e6743adb.svg",
+    "static/media/html.aff8a9cb.svg": "/profile2/static/media/html.aff8a9cb.svg",
+    "static/media/js.acc4642f.svg": "/profile2/static/media/js.acc4642f.svg",
+    "static/media/linkedin.d9666dd4.svg": "/profile2/static/media/linkedin.d9666dd4.svg",
+    "static/media/mail.b5eaaaba.svg": "/profile2/static/media/mail.b5eaaaba.svg",
+    "static/media/mysql.2bc8ab8e.svg": "/profile2/static/media/mysql.2bc8ab8e.svg",
+    "static/media/node.dd47e26e.svg": "/profile2/static/media/node.dd47e26e.svg",
+    "static/media/projects.77e5a740.svg": "/profile2/static/media/projects.77e5a740.svg",
+    "static/media/react.903d77ad.svg": "/profile2/static/media/react.903d77ad.svg",
+    "static/media/main.css": "/profile2/static/media/robotoslab-regular.147f86e4.ttf",
+    "static/media/sass.540ec25f.svg": "/profile2/static/media/sass.540ec25f.svg",
+    "static/media/tech.8160a69b.svg": "/profile2/static/media/tech.8160a69b.svg",
+    "static/media/twitter.536733a8.svg": "/profile2/static/media/twitter.536733a8.svg",
+    "static/media/user.812a8335.png": "/profile2/static/media/user.812a8335.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c94ce6dd.js",
+    "static/js/2.1dccd1d4.chunk.js",
+    "static/css/main.262b7f55.chunk.css",
+    "static/js/main.98795514.chunk.js"
+  ]
+}
