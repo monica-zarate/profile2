@@ -540,6 +540,7 @@ ul {
   -webkit-box-pack: unset;
       -ms-flex-pack: unset;
           justify-content: unset;
+  overflow-y: scroll;
 }
 
 @media (min-width: 768px) {
@@ -564,6 +565,12 @@ ul {
   font-family: "Roboto Slab Bold";
   color: #0a4081;
   margin: 0 0 2rem 0;
+}
+
+@media (min-width: 768px) {
+  .skills__title {
+    margin: 0 0 1rem 0;
+  }
 }
 
 .skills__list {
@@ -604,6 +611,10 @@ ul {
 
 #css {
   height: 2.2rem;
+}
+
+#hk {
+  height: 1.75rem;
 }
 
 .contact {

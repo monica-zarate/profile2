@@ -8,6 +8,9 @@ import js from "../assets/icons/js.svg";
 import react from "../assets/icons/react.svg";
 import node from "../assets/icons/node.svg";
 import mysql from "../assets/icons/mysql.svg";
+import git from "../assets/icons/git.svg";
+import heroku from "../assets/icons/heroku.svg";
+import ga from "../assets/icons/ga.svg";
 
 function Skills () {
     return(
@@ -43,6 +46,18 @@ function Skills () {
                     <li className="skills__list-item">
                         <img className="skills__icon" src={mysql} alt=""/>
                         <p className="skills__p">MySQL</p>
+                    </li>
+                    <li className="skills__list-item">
+                        <img className="skills__icon" src={git} alt=""/>
+                        <p className="skills__p">Git</p>
+                    </li>
+                    <li className="skills__list-item">
+                        <img className="skills__icon" id="hk" src={heroku} alt=""/>
+                        <p className="skills__p">Heroku</p>
+                    </li>
+                    <li className="skills__list-item">
+                        <img className="skills__icon" src={ga} alt=""/>
+                        <p className="skills__p">Google Analytics</p>
                     </li>
                 </ul>
             </div>

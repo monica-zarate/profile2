@@ -9,6 +9,7 @@
   margin: 2.5rem 0 7rem 0;
   padding: 2rem 1rem;
   justify-content: unset;
+  overflow-y: scroll;
   @include tablet {
     margin: 0;
     width: 50rem;
@@ -27,6 +28,10 @@
     font-family: $slab-bold;
     color: $primary-color;
     margin: 0 0 2rem 0;
+
+    @include tablet {
+      margin: 0 0 1rem 0;
+    }
   }
 
   &__list {
@@ -55,4 +60,8 @@
 
 #css {
   height: 2.2rem;
+}
+
+#hk {
+  height: 1.75rem;
 }
